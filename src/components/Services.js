@@ -13,7 +13,7 @@ const Services = () => {
   return (
     <>
     <div className=' md:w-1/2 lg:mx-auto text-center '>
-        <h2 className='lg:text-3xl text-2xl text-center  font-semibold mb-3 mt-20'>Our <span className='text-textteal'>Services</span></h2>
+        <h2 className='lg:text-3xl text-2xl text-center  font-semibold mb-3 '>Our <span className='text-textteal'>Services</span></h2>
         <p className=''>What does Sakura Provides ?</p>
     </div>
     <div>

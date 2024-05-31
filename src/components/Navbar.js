@@ -14,13 +14,13 @@ const Navbar = () => {
     const navItems = [
         { path: '/', label: 'Home' },
         { path: '/about', label: 'About Us' },
-        { path: '/classes', label: 'Classes', subItems: [
-                { path: '/classes/class1', label: 'PTE' },
-                { path: '/classes/class2', label: 'IELTS' },
-                { path: '/classes/class3', label: 'Class 3' }
+        { path: '', label: 'Classes', subItems: [
+                { path: '/classes/pte', label: 'PTE' },
+                { path: '/classes/ielts', label: 'IELTS' },
+                { path: '/classes/japan', label: 'JAPAN' }
             ]
         },
-        { path: '/services', label: 'Services' },
+      
         { path: '/study-abroad', label: 'Study Abroad', subItems: [
                 { path: '/study-abroad/usa', label:'Study in USA' },
                 { path: '/study-abroad/uk', label: 'Study in UK' },
