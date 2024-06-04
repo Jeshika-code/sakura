@@ -3,10 +3,10 @@ import { Carousel } from "flowbite-react";
 
 const Study = () => {
   return (
-    <div className="bg-ewhite mt-20  p-4 h-auto ">
+    <div className="bg-ewhite  lg:mx-auto  mt-20  p-4 h-auto ">
       <div className="grid grid-cols-1  gap-4 lg:grid-cols-2 lg:gap-8">
         <div className="lg:h-auto h-64 ">
-          <Carousel>
+          <Carousel >
             <img
               className="object-cover w-full h-full"
               src="https://www.sopanglobal.edu.np/dist/images/study-in-japan.png"

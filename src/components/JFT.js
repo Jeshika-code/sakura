@@ -56,16 +56,16 @@
 import React from "react";
 import JFTSlide from "./JFTSlide.js";
 
-const JLPT = () => {
+const JFT = () => {
   return (
     <>
       <JFTSlide />
-      <div className="container mt-10">
+      <div className="container mt-10 mx-auto">
         <h1 className="text-center text-xl lg:text-2xl">
           <span className="text-textteal font-bold mb-4">Question related to </span> JFT
         </h1>
-        <div className="table-responsive">
-          <table className="table mt-10 lg:w-3/5 lg:mx-auto w-100 mb-10 border-collapse border border-black">
+        <div className="overflow-x-auto">
+          <table className="w-full lg:w-4/5 mt-10 mx-auto mb-10 border-collapse border border-black">
             <tbody>
               <tr>
                 <td className="border border-black p-2 text-textteal font-bold italic">Eligibility</td>
@@ -103,4 +103,4 @@ const JLPT = () => {
   );
 };
 
-export default JLPT;
+export default JFT;

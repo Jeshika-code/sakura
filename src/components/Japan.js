@@ -3,7 +3,7 @@ import React from "react";
 import { Card } from "flowbite-react";
 import Visa from "./Visa";
 import JapanLanguage from "./JapanLanguage.js"
-const Pte = () => {
+const Japan = () => {
   const japanese = [
     {
       id: 1,
@@ -45,10 +45,11 @@ const Pte = () => {
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2kU-aNUbAXFB9d_l6JqKMnELgfw-oE5ax38o9s3RIM_GaW0SRVqMKHPMXxu_PeHWOHpg&usqp=CAU",
     },
+    
   ];
   return (
     <>
-      <div className="mt-10 h-auto ">
+      <div className="mt-10 h-auto">
         <div className="lg:h-80 ">
           <img
             src="https://afar.brightspotcdn.com/dims4/default/b69afb0/2147483647/strip/true/crop/1440x720+0+0/resize/1440x720!/quality/90/?url=https%3A%2F%2Fafar-media-production-web.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fcf%2F8a%2F20b4a2c544a58be93512ad67084c%2Fbohler-japankk-4006.jpg"
@@ -69,7 +70,7 @@ const Pte = () => {
             </h1>
           </div>
 
-          <div className="mt-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12  ">
+          <div className=" mt-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12  ">
             {japanese.map((service) => (
               <div
                 key={service.id}
@@ -96,4 +97,4 @@ const Pte = () => {
   );
 };
 
-export default Pte;
+export default Japan;

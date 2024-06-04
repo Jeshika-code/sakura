@@ -13,7 +13,7 @@ const Navbar = () => {
     
     const navItems = [
         { path: '/', label: 'Home' },
-        { path: '/about', label: 'About Us' },
+       
         { path: '', label: 'Classes', subItems: [
                 { path: '/classes/pte', label: 'PTE' },
                 { path: '/classes/ielts', label: 'IELTS' },
@@ -52,7 +52,7 @@ const Navbar = () => {
                 </div>
                 <ul className={`flex flex-col  lg:flex-row ${isOpen ? 'block' : 'hidden'} lg:flex`}>
                     {navItems.map((item, index) => (
-                        <li key={index} className="mr-8 relative group text-black hover:text-textteal">
+                        <li key={index} className="mr-8 relative group text-black hover:text-textteal ">
                             <Link to={item.path}>{item.label}</Link>
                             
                             {item.subItems && (
