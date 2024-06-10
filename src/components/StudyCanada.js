@@ -18,7 +18,7 @@ const Home = () => {
           Studying in Canada offers a rich tapestry of academic excellence, cultural diversity, and breathtaking natural beauty. Renowned for its world-class universities and colleges, Canada provides students with a supportive and inclusive learning environment that fosters innovation and critical thinking. From the vibrant cityscapes of Toronto and Vancouver to the serene landscapes of the Canadian Rockies, students have the opportunity to explore a vast array of academic programs and research opportunities.
          
           </p>
-          <h1 className=' text-center text-2xl'>Discover <span className='text-textteal font-bold'>USA</span></h1>
+          <h1 className=' text-center text-2xl'>Discover <span className='text-textteal font-bold'>Canada</span></h1>
           </div>
           <CanadaPage/>
          <Footer/>
