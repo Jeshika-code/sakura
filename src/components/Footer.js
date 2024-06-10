@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-800 py-12">
+        <footer className="bg-gray-800 py-8">
          
                 <div className="mt-8 text-center text-gray-400">
                     <p>&copy; {new Date().getFullYear()} Sakura Abroad Consultancy. All rights reserved.</p>
@@ -13,3 +13,5 @@ const Footer = () => {
 }
 
 export default Footer;
+
+

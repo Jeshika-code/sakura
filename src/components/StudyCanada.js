@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel } from "flowbite-react";
 import CanadaPage from "./CanadaPage.js"
+import Footer from './Footer.js';
 const Home = () => {
   return (
     <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
@@ -20,6 +21,7 @@ const Home = () => {
           <h1 className=' text-center text-2xl'>Discover <span className='text-textteal font-bold'>USA</span></h1>
           </div>
           <CanadaPage/>
+         <Footer/>
   </div>
     
   );

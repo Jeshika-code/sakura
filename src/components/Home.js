@@ -2,20 +2,22 @@ import React from 'react';
 import { Carousel } from "flowbite-react";
 import Services from './Services';
 import Study from './Study';
-
+import Footer from './Footer';
+import home1 from "../images/home1.png"
+import home2 from "../images/home2.jpg"
 const carouselItems = [
   {
-    imageUrl: "https://www.theedutrust.com/images/student-visa.png",
+    imageUrl:home2,
     title: "Sakura Abroad Consultancy",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quo sint nemo praesentium quidem. Eligendi dolore maxime quidem cupiditate ad porro fuga quisquam eaque quibusdam commodi animi, vel aliquam error."
   },
   {
-    imageUrl: "https://www.admissify.com/blog/wp-content/uploads/2023/03/How-to-Spot-a-Bad-Study-abroad-Consultant-and-Avoid-Them.png",
+    imageUrl: home1,
     title: "Sakura Abroad Consultancy",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quo sint nemo praesentium quidem. Eligendi dolore maxime quidem cupiditate ad porro fuga quisquam eaque quibusdam commodi animi, vel aliquam error."
   },
   {
-    imageUrl: "https://www.theedutrust.com/images/student-visa.png",
+    imageUrl: home2,
     title: "Sakura Abroad Consultancy",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quo sint nemo praesentium quidem. Eligendi dolore maxime quidem cupiditate ad porro fuga quisquam eaque quibusdam commodi animi, vel aliquam error."
   }
@@ -41,7 +43,7 @@ const Home = () => {
       </div>
       <Services/>
       <Study/>
-      
+      <Footer/>
       
     </div>
     

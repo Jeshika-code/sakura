@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel } from "flowbite-react";
 import UKPage from "./UKPage.js"
+import Footer from './Footer.js';
 const Home = () => {
   return (
     <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
@@ -19,9 +20,10 @@ const Home = () => {
 
           <p>With a reputation for excellence in various fields, including arts, sciences, and business, studying in the UK opens doors to diverse career opportunities and global connections. Whether exploring historic cities, participating in lively debates, or forging lifelong friendships, studying in the UK promises an enriching and memorable experience of personal and academic growth.</p>
           </p>
-          <h1 className=' text-center text-2xl'>Discover <span className='text-textteal font-bold'>USA</span></h1>
+          <h1 className=' text-center text-2xl'>Discover <span className='text-textteal font-bold'>UK</span></h1>
           </div>
           <UKPage/>
+          <Footer/>
   </div>
     
   );
