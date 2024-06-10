@@ -14,29 +14,23 @@ const UsaPage = () => {
             </Accordion.Title>
             <Accordion.Content>
               <p className="mb-4 text-gray-500 dark:text-gray-400">
-                Some of the basic requirements to study in USA are:
+                Some of the basic requirements to study in Japan are:
               </p>
               <p className="mb-4 ml-4">
                 <span className="text-textteal font-bold">
                   <ul>
-                    <li className="list-disc	">English Proficieny:</li>
+                    <li className="list-disc	">Language Proficiency:</li>
                   </ul>
                 </span>{" "}
-                Demonstrating proficiency in English is crucial as it's the
-                primary language of instruction. This requirement is often met
-                through standardized tests like TOEFL or IELTS, or sometimes
-                through the university's own English proficiency exams.
+                Depending on the program and institution, you may need to demonstrate proficiency in Japanese or English, often through standardized tests like the Japanese Language Proficiency Test (JLPT).
               </p>
               <p className="mb-4 ml-4">
                 <span className="text-textteal font-bold">
                   <ul>
-                    <li className="list-disc	">Admission Tests: </li>
+                    <li className="list-disc	">Admission to a University or Institution: </li>
                   </ul>
                 </span>{" "}
-                Many universities require standardized test scores such as the
-                SAT for undergraduate studies or the GRE/GMAT for graduate
-                studies. These tests assess your academic readiness and are used
-                by admissions committees to evaluate applicants.
+                You need to apply and be accepted by a Japanese university or educational institution.
               </p>
               <p className="mb-4 ml-4">
                 <span className="text-textteal font-bold">
@@ -59,7 +53,7 @@ const UsaPage = () => {
                 </span>
                 International students often need to demonstrate that they have
                 sufficient funds to cover tuition fees, living expenses, and
-                other costs associated with studying in the USA. This can be
+                other costs associated with studying in the Japan. This can be
                 done through bank statements, scholarship letters, or
                 sponsorship letters.
               </p>
@@ -71,7 +65,7 @@ const UsaPage = () => {
             </Accordion.Title>
             <Accordion.Content>
               <p className="mb-2 text-gray-500 dark:text-gray-400">
-                The cost of studying in the USA can vary significantly depending
+                The cost of studying in the Japan can vary significantly depending
                 on several factors, including the type of institution (public or
                 private), location, program of study, and personal lifestyle
                 choices.
@@ -86,23 +80,23 @@ const UsaPage = () => {
             <Accordion.Content>
               <p className="mb-4 text-gray-500 dark:text-gray-400">
                 <span className="text-textteal font-bold">
-                  The best courses to study in USA are:
+                  The best courses to study in Japan are:
                 </span>
               </p>
               <p className="mb-4 ml-4">
                 <ul>
                   <li className="list-disc	">
-                    Computer Science and Information Technology
+                    Cook 
                   </li>
-                </ul>
-                <ul>
-                  <li className="list-disc	">Business and Management</li>
                 </ul>
                 <ul>
                   <li className="list-disc	">Engineering</li>
                 </ul>
                 <ul>
-                  <li className="list-disc	">Law and Legal Studies</li>
+                  <li className="list-disc	">Nursing and care</li>
+                </ul>
+                <ul>
+                  <li className="list-disc	">Agriculture</li>
                 </ul>
               </p>
             </Accordion.Content>

@@ -7,17 +7,17 @@ const carouselItems = [
   {
     imageUrl: "https://www.theedutrust.com/images/student-visa.png",
     title: "Sakura Abroad Consultancy",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quo sint nemo praesentium quidem. Eligendi dolore maxime quidem cupiditate ad porro fuga quisquam eaque quibusdam commodi animi, vel aliquam error."
+    description: "Welcome to Sakura Abroad, where we make your study abroad DREAM a REALITY with our Trusted Study Abroad Consultants. We understand that studying abroad can be overwhelming. That's why we offer personalized support to guide students through every step of the process, from choosing a destination to obtaining a visa.."
   },
   {
     imageUrl: "https://www.admissify.com/blog/wp-content/uploads/2023/03/How-to-Spot-a-Bad-Study-abroad-Consultant-and-Avoid-Them.png",
     title: "Sakura Abroad Consultancy",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quo sint nemo praesentium quidem. Eligendi dolore maxime quidem cupiditate ad porro fuga quisquam eaque quibusdam commodi animi, vel aliquam error."
+    description: "From cherry blossoms to global classrooms - Sakura Abroad Study makes it possible.."
   },
   {
     imageUrl: "https://www.theedutrust.com/images/student-visa.png",
     title: "Sakura Abroad Consultancy",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quo sint nemo praesentium quidem. Eligendi dolore maxime quidem cupiditate ad porro fuga quisquam eaque quibusdam commodi animi, vel aliquam error."
+    description: " Your passport to global education. Empowering students to pursue academic excellence across borders with personalized guidance and unwavering support."
   }
 ];
 
@@ -32,7 +32,7 @@ const Home = () => {
                 <img src={item.imageUrl} alt="" className="  h-full w-full object-cover top-10" />
               </div>
               <div className='md:w-3/4 lg:h-80 h-96'>
-                <h1 className='lg:text-4xl text-xl font-semibold mb-4 md:w-3/4 leading-snug'><span className='text-textteal'>Sakura </span>Abroad Consultancy</h1>
+                <h1 className='lg:text-4xl text-xl font-semibold mb-4 md:w-3/4 leading-snug'><span className='text-textteal'>Sakura </span>Abroad Study and Training Center</h1>
                 <p className='lg:text-base text-sm'>{item.description}</p>
               </div>
             </div>
