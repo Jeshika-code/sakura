@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 
 const Pte = () => {
   const services = [
@@ -203,6 +204,7 @@ const Pte = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

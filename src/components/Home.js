@@ -2,20 +2,22 @@ import React from 'react';
 import { Carousel } from "flowbite-react";
 import Services from './Services';
 import Study from './Study';
-
+import Footer from './Footer';
+import home1 from "../images/home1.png"
+import home2 from "../images/home2.jpg"
 const carouselItems = [
   {
-    imageUrl: "https://www.theedutrust.com/images/student-visa.png",
+    imageUrl:home2,
     title: "Sakura Abroad Consultancy",
     description: "Welcome to Sakura Abroad, where we make your study abroad DREAM a REALITY with our Trusted Study Abroad Consultants. We understand that studying abroad can be overwhelming. That's why we offer personalized support to guide students through every step of the process, from choosing a destination to obtaining a visa.."
   },
   {
-    imageUrl: "https://www.admissify.com/blog/wp-content/uploads/2023/03/How-to-Spot-a-Bad-Study-abroad-Consultant-and-Avoid-Them.png",
+    imageUrl: home1,
     title: "Sakura Abroad Consultancy",
     description: "From cherry blossoms to global classrooms - Sakura Abroad Study makes it possible.."
   },
   {
-    imageUrl: "https://www.theedutrust.com/images/student-visa.png",
+    imageUrl: home2,
     title: "Sakura Abroad Consultancy",
     description: " Your passport to global education. Empowering students to pursue academic excellence across borders with personalized guidance and unwavering support."
   }
@@ -41,7 +43,7 @@ const Home = () => {
       </div>
       <Services/>
       <Study/>
-      
+      <Footer/>
       
     </div>
     

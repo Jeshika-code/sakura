@@ -1,7 +1,8 @@
 import React from 'react';
 import { Carousel } from "flowbite-react";
 import UsaPage from "./UsaPage"
-const Home = () => {
+import Footer from './Footer';
+const StudyUsa = () => {
   return (
     <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
     <Carousel slide={true} interval={3000}>
@@ -20,9 +21,10 @@ const Home = () => {
           <h1 className=' text-center text-2xl'>Discover <span className='text-textteal font-bold'>USA</span></h1>
           </div>
           <UsaPage/>
+          <Footer/>
   </div>
     
   );
 }
 
-export default Home;
+export default StudyUsa;

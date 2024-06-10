@@ -3,6 +3,7 @@ import React from "react";
 import { Card } from "flowbite-react";
 import Visa from "./Visa";
 import JapanLanguage from "./JapanLanguage.js"
+import Footer from "./Footer.js";
 const Japan = () => {
   const japanese = [
     {
@@ -93,6 +94,7 @@ const Japan = () => {
        <JapanLanguage/>
         
       </div>
+      <Footer/>
     </>
   );
 };
