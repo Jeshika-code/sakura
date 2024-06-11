@@ -14,7 +14,7 @@ const UsaPage = () => {
             </Accordion.Title>
             <Accordion.Content>
               <p className="mb-4 text-gray-500 dark:text-gray-400">
-                Some of the basic requirements to study in USA are:
+                Some of the basic requirements to study in Canada are:
               </p>
               <p className="mb-4 ml-4">
                 <span className="text-textteal font-bold">
