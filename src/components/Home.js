@@ -14,7 +14,7 @@ const carouselItems = [
   {
     imageUrl: home1,
     title: "Sakura Abroad Consultancy",
-    description: "From cherry blossoms to global classrooms - Sakura Abroad Study makes it possible.."
+    description: "From cherry blossoms to global classrooms - Sakura Abroad Study makes it possible."
   },
   {
     imageUrl: home2,
