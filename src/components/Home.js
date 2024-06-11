@@ -11,10 +11,10 @@ const carouselItems = [
     title: "Sakura Abroad Consultancy",
     description: "Welcome to Sakura Abroad, where we make your study abroad DREAM a REALITY with our Trusted Study Abroad Consultants. We understand that studying abroad can be overwhelming. That's why we offer personalized support to guide students through every step of the process, from choosing a destination to obtaining a visa.."
   },
-  {
+  { 
     imageUrl: home1,
     title: "Sakura Abroad Consultancy",
-    description: "From cherry blossoms to global classrooms - Sakura Abroad Study makes it possible."
+    description: "From cherry blossoms to global classrooms --Sakura Abroad Study makes it possible."
   },
   {
     imageUrl: home2,
