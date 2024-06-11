@@ -2,13 +2,13 @@ import React from "react";
 import { Carousel } from "flowbite-react";
 import { Accordion } from "flowbite-react";
 
-const UsaPage = () => {
+const USAPage = () => {
   return (
     <>
-      <div className="mx-auto w-11/12 h-80 ">
+      <div className="mx-auto w-11/12 max-h-96 overflow-y-auto mb-20">
         <Accordion collapseAll>
           <Accordion.Panel>
-            <Accordion.Title>
+          <Accordion.Title className="text-sm lg:text-base">
               {" "}
               What are the requirements to study in USA?
             </Accordion.Title>
@@ -16,7 +16,7 @@ const UsaPage = () => {
               <p className="mb-4 text-gray-500 dark:text-gray-400">
                 Some of the basic requirements to study in USA are:
               </p>
-              <p className="mb-4 ml-4">
+              <p className="mb-4 ml-4 lg:text-base text-sm text-gray-500 dark:text-gray-400">
                 <span className="text-textteal font-bold">
                   <ul>
                     <li className="list-disc	">English Proficieny:</li>
@@ -27,7 +27,7 @@ const UsaPage = () => {
                 through standardized tests like TOEFL or IELTS, or sometimes
                 through the university's own English proficiency exams.
               </p>
-              <p className="mb-4 ml-4">
+              <p className="mb-4 ml-4 lg:text-base text-sm text-gray-500 dark:text-gray-400">
                 <span className="text-textteal font-bold">
                   <ul>
                     <li className="list-disc	">Admission Tests: </li>
@@ -38,7 +38,7 @@ const UsaPage = () => {
                 studies. These tests assess your academic readiness and are used
                 by admissions committees to evaluate applicants.
               </p>
-              <p className="mb-4 ml-4">
+              <p className="mb-4 ml-4 text-sm lg:text-base text-gray-500 dark:text-gray-400">
                 <span className="text-textteal font-bold">
                   <ul>
                     <li className="list-disc	">Statement of Purpose (SOP): </li>
@@ -51,7 +51,7 @@ const UsaPage = () => {
                 admissions committees understand your motivations and
                 aspirations.
               </p>
-              <p className="mb-4 ml-4">
+              <p className="mb-4 ml-4 text-sm lg:text-base text-gray-500 dark:text-gray-400">
                 <span className="text-textteal font-bold">
                   <ul>
                     <li className="list-disc	">Proof of Funds: </li>
@@ -66,11 +66,11 @@ const UsaPage = () => {
             </Accordion.Content>
           </Accordion.Panel>
           <Accordion.Panel>
-            <Accordion.Title>
-              What is the cost of studying in the USA?
+          <Accordion.Title className="text-sm lg:text-base">
+              What is the cost of studying in USA?
             </Accordion.Title>
             <Accordion.Content>
-              <p className="mb-2 text-gray-500 dark:text-gray-400">
+              <p className="mb-2 text-gray-500 dark:text-gray-400 text-sm lg:text-base">
                 The cost of studying in the USA can vary significantly depending
                 on several factors, including the type of institution (public or
                 private), location, program of study, and personal lifestyle
@@ -80,16 +80,16 @@ const UsaPage = () => {
           </Accordion.Panel>
 
           <Accordion.Panel>
-            <Accordion.Title>
-              What is the best course to study in the USA?
+          <Accordion.Title className="text-sm lg:text-base">
+              What is the best course to study in  USA?
             </Accordion.Title>
             <Accordion.Content>
-              <p className="mb-4 text-gray-500 dark:text-gray-400">
+              <p className="mb-4 text-sm lg:text-base text-gray-500 dark:text-gray-400">
                 <span className="text-textteal font-bold">
                   The best courses to study in USA are:
                 </span>
               </p>
-              <p className="mb-4 ml-4">
+              <p className="mb-2 text-gray-500 dark:text-gray-400 text-sm lg:text-base">
                 <ul>
                   <li className="list-disc	">
                     Computer Science and Information Technology
@@ -109,11 +109,11 @@ const UsaPage = () => {
           </Accordion.Panel>
 
           <Accordion.Panel>
-            <Accordion.Title>
-            How much GPA is required to study in the USA?
+            <Accordion.Title className="text-sm lg:text-base">
+            How much GPA is required to study in the Canada?
             </Accordion.Title>
             <Accordion.Content>
-              <p className="mb-4 text-gray-500 dark:text-gray-400">
+              <p className="mb-4 text-gray-500 dark:text-gray-400 text-sm lg:text-base">
                
                 The preferable GPA for international students planning to apply for graduate programs is 3.0 and above in a bachelor’s degree.
 
@@ -129,4 +129,4 @@ For undergraduate students the preferable GPA is above 2.8.
   );
 };
 
-export default UsaPage;
+export default USAPage;

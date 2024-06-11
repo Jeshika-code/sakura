@@ -1,5 +1,6 @@
 import React from "react";
 import JLPTSlide from "./JLPTSlide.js";
+import Footer from "./Footer.js";
 
 const JLPT = () => {
   return (
@@ -69,6 +70,7 @@ const JLPT = () => {
           </table>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

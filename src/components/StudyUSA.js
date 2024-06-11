@@ -2,14 +2,17 @@ import React from 'react';
 import { Carousel } from "flowbite-react";
 import UsaPage from "./UsaPage"
 import Footer from './Footer';
+import studyusa1 from "../images/studyusa1.jpg"
+import studyusa2 from "../images/studyusa2.jpg"
+import studyusa3 from "../images/studyusa3.jpg"
 const StudyUsa = () => {
   return (
     <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
     <Carousel slide={true} interval={3000}>
       
-      <img src="https://www.avanse.com/blogs/images/blogs-migration-211.jpg" alt="..." />
-      <img src="https://www.sagorconsultancy.com/public/images/services/20230823203658service.jpg" alt="..." />
-      <img src="https://www.edgeip.com/images/FCK/Image/202204/USCollegeExpo-WhyStudyInUS.jpg" alt="..." />
+      <img src={studyusa1} alt="..." />
+      <img src={studyusa2} alt="..." />
+      <img src={studyusa3} alt="..." />
       <img src="https://edwisefoundation.com/wp-content/uploads/2021/02/USA-study-guide-for-Nepalese-students.jpg.webp" alt="..." />
     </Carousel>
     <div className=" max-w-screen-lg mx-auto lg:p-4 p-8  mb-4">

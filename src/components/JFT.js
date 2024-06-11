@@ -55,6 +55,7 @@
 // export default JLPT;
 import React from "react";
 import JFTSlide from "./JFTSlide.js";
+import Footer from "./Footer.js";
 
 const JFT = () => {
   return (
@@ -99,6 +100,7 @@ const JFT = () => {
           </table>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

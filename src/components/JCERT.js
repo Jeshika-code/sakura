@@ -1,6 +1,7 @@
 
 import React from "react";
 import JCERTSlide from "./JCERTSlide.js";
+import Footer from "./Footer.js";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 const JLPT = () => {
@@ -72,6 +73,7 @@ const JLPT = () => {
           </table>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

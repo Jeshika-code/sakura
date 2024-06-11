@@ -2,15 +2,16 @@ import React from 'react';
 import { Carousel } from "flowbite-react";
 import CanadaPage from "./CanadaPage.js"
 import Footer from './Footer.js';
+import studycanada1 from "../images/studycanada1.jpg"
 const Home = () => {
   return (
     <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
     <Carousel slide={true} interval={3000}>
       
       <img src="https://canapprove.ae/wp-content/uploads/2023/09/Why-Choose-Canada-1.webp" alt="..." />
-      <img src="https://www.edgeip.com/images/FCK/Image/202206/SFG-AboutCanada-HowToStudyinCanada.jpg" alt="..." />
+      <img src={studycanada1}alt="..." />
       <img src="https://canapprove.ae/wp-content/uploads/2023/09/Why-Choose-Canada-1.webp" alt="..." />
-      <img src="https://www.edgeip.com/images/FCK/Image/202206/SFG-AboutCanada-HowToStudyinCanada.jpg" alt="..." />
+      <img src={studycanada1} alt="..." />
       
     </Carousel>
     <div className=" max-w-screen-lg mx-auto lg:p-4 p-8  mb-4">
