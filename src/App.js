@@ -16,6 +16,7 @@ import JLPT from "./components/JLPT.js"
 import JFT from "./components/JFT.js"
 import JCERT from "./components/JCERT.js"
 import Gallery from  "./components/Gallery.js"
+import Contact from "./components/Contact.js"
 function App() {
   return (
     <>
@@ -34,6 +35,8 @@ function App() {
       <Route path='/classes/japan/jft' element={<JFT/>}/>
 <Route path='/classes/japan/jlpt' element={<JLPT/>}/>
 {/* <Route path='/classes/japan/jcert' element={<JCERT/>}/> */}
+<Route path='/contact' element={<Contact/>}/>
+
 <Route path='/gallery' element={<Gallery/>}/>
 
       </Routes>

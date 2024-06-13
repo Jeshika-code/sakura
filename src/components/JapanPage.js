@@ -1,8 +1,5 @@
-
 import React from "react";
-import { Carousel } from "flowbite-react";
 import { Accordion } from "flowbite-react";
-
 const USAPage = () => {
   return (
     <>

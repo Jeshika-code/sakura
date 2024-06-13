@@ -21,14 +21,15 @@ const Navbar = () => {
             ]
         },
       
-        { path: '/study-abroad', label: 'Study Abroad', subItems: [
+        { path: '', label: 'Study Abroad', subItems: [
                 { path: '/study-abroad/usa', label:'Study in USA' },
                 { path: '/study-abroad/uk', label: 'Study in UK' },
                 { path: '/study-abroad/canada', label: 'Study in Canada' },
                 { path: '/study-abroad/japan', label: 'Study in Japan' }
             ]
         },
-        { path: '/gallery', label: 'Gallery' }
+        { path: '/gallery', label: 'Gallery' },
+        {path:'/contact',label:'Contact'}
     ];
 
     return (
