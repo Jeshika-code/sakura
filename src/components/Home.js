@@ -28,7 +28,8 @@ const carouselItems = [
 
 const Home = () => {
   return (
-    <div className='mt-4 lg:mt-0' >
+    // <div className='mt-4 lg:mt-0' >
+      <div className='mt-4 lg:mt-0' >
       <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen h-96 '>
         <Carousel className='w-full mx-auto h-full '>
           {carouselItems.map((item, index) => (
@@ -55,4 +56,5 @@ const Home = () => {
 }
 
 export default Home;
+
 
