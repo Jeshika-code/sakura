@@ -5,9 +5,9 @@ const Services = () => {
         {id:1,title:"College & University Admission",description:"College and university admission process can be simplified with guidance.",image:"https://www.creativefabrica.com/wp-content/uploads/2023/02/07/Child-education-school-building-icon-Graphics-60363283-2-580x386.jpg"},
         {id:2,title:"Career Counseling",description:"One-on-one counselling to students seeking clarity, directions and guidance in their life who are applying to study abroad",image:"https://www.superprof.co.in/blog/wp-content/uploads/2019/09/counselor-1294858_960_720-1.png"},
         {id:3,title:"Langugage Learning Classes",description:"Embrace the World's Diversity: Master Language, Cultivate Connections, and Explore Boundless Opportunities with Our Language Teaching Classes.",image:"https://media.istockphoto.com/id/1459299651/vector/english-to-japanese-translate-icon.jpg?s=612x612&w=0&k=20&c=jjgEwo0Kunas-PxdJdgm7mUsvrteMfJQPlXwQkVYtkE="},
-        {id:1,title:"Providing Visa",description:"We provide student visa,engineering visa,cook visa,training visa,SSW Visa and IKUSEIS visa.",image:"https://www.skybluehr.com/wp-content/uploads/2024/01/visa-services.png"},
-        {id:1,title:"College & University Admission",description:"College and university admission process can be simplified with guidance.",image:"https://www.creativefabrica.com/wp-content/uploads/2023/02/07/Child-education-school-building-icon-Graphics-60363283-2-580x386.jpg"},
-        {id:1,title:"College & University Admission",description:"College and university admission process can be simplified with guidance.",image:"https://www.creativefabrica.com/wp-content/uploads/2023/02/07/Child-education-school-building-icon-Graphics-60363283-2-580x386.jpg"}
+        {id:1,title:"Providing Visa",description:"We provide student visa,engineering visa,cook visa,training visa,SSW Visa and IKUSEI visa.",image:"https://www.skybluehr.com/wp-content/uploads/2024/01/visa-services.png"},
+        {id:1,title:"Pre-Departure/On Arrival Support",description:"Assistance before and after arrival to ensure a smooth transition.",image:"https://www.creativefabrica.com/wp-content/uploads/2023/02/07/Child-education-school-building-icon-Graphics-60363283-2-580x386.jpg"},
+        {id:1,title:"Students Accommodation",description:"College and university admission process can be simplified with guidance.",image:"https://www.creativefabrica.com/wp-content/uploads/2023/02/07/Child-education-school-building-icon-Graphics-60363283-2-580x386.jpg"}
 
     ]
   return (

@@ -94,7 +94,7 @@ const USAPage = () => {
                   <li className="list-disc	">Engineering</li>
                 </ul>
                 <ul>
-                  <li className="list-disc	">Law and Legal Studies</li>
+                  <li className="list-disc	">cook</li>
                 </ul>
               </p>
             </Accordion.Content>

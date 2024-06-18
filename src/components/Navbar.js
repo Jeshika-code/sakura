@@ -1,43 +1,51 @@
-// Navbar.jsx
+
+
 import React, { useState } from 'react';
-import logo from "../images/logo.jpeg";
+// import logo from "../images/logo.jpeg";
+
+import logo from"../images/logoo.jpg";
 import { Link } from 'react-router-dom';
 import { Close, Menu } from '@mui/icons-material';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
-    
+    const [activeMenu, setActiveMenu] = useState(null); // Track active menu item
+
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
-    
+
+    const toggleSubmenu = (index) => {
+        setActiveMenu(activeMenu === index ? null : index); // Toggle submenu visibility
+    };
+
+    const closeMenu = () => {
+        setIsOpen(false); // Close main menu
+        setActiveMenu(null); // Close active submenu
+    };
+
     const navItems = [
         { path: '/', label: 'Home' },
-       
-        { path: '', label: 'Classes', subItems: [
-                { path: '/classes/pte', label: 'PTE' },
-                { path: '/classes/ielts', label: 'IELTS' },
-                { path: '/classes/japan', label: 'JAPAN' }
-            ]
-        },
-      
-        { path: '', label: 'Study Abroad', subItems: [
-                { path: '/study-abroad/usa', label:'Study in USA' },
-                { path: '/study-abroad/uk', label: 'Study in UK' },
-                { path: '/study-abroad/canada', label: 'Study in Canada' },
-                { path: '/study-abroad/japan', label: 'Study in Japan' }
-            ]
-        },
+        { path: '/classes', label: 'Classes', subItems: [
+            { path: '/classes/pte', label: 'PTE' },
+            { path: '/classes/ielts', label: 'IELTS' },
+            { path: '/classes/japan', label: 'JAPAN' }
+        ]},
+        { path: '/study-abroad', label: 'Study Abroad', subItems: [
+            { path: '/study-abroad/usa', label:'Study in USA' },
+            { path: '/study-abroad/uk', label: 'Study in UK' },
+            { path: '/study-abroad/canada', label: 'Study in Canada' },
+            { path: '/study-abroad/japan', label: 'Study in Japan' }
+        ]},
         { path: '/gallery', label: 'Gallery' },
-        {path:'/contact',label:'Contact'}
+        { path:'/contact', label:'Contact' }
     ];
 
     return (
         <nav className="text-white py-4 bg-white sticky top-0 z-50">
             <div className="container mx-auto flex justify-between items-center">
-                {/* Logo on the left */}
                 <div>
-                    <img src={logo} alt="Logo" className="h-8 ml-4" />
+                    <img src={logo} alt="Logo" className="h-20 ml-4" />
                 </div>
                 <div className="block lg:hidden">
                     <button
@@ -47,23 +55,31 @@ const Navbar = () => {
                         {!isOpen ? (
                             <Menu className='text-black mr-4'/>
                         ) : (
-                            <Close className='text-black '/>
+                            <Close className='text-black'/>
                         )}
                     </button>
                 </div>
-                <ul className={`flex flex-col  lg:flex-row ${isOpen ? 'block' : 'hidden'} lg:flex`}>
+                <ul className={`flex flex-col lg:flex-row ${isOpen ? 'block' : 'hidden'} lg:flex`}>
                     {navItems.map((item, index) => (
-                        <li key={index} className="mr-8 relative group text-black hover:text-textteal ">
-                            <Link to={item.path}>{item.label}</Link>
-                            
-                            {item.subItems && (
-                                <ul className="absolute hidden bg-white text-gray-500 rounded  pt-2 w-48 p-4  group-hover:block ">
-                                    {item.subItems.map((subItem, subIndex) => (
-                                        <li className="hover:text-textteal mb-2"key={subIndex}>
-                                            <Link to={subItem.path}>{subItem.label}</Link>
-                                        </li>
-                                    ))}
-                                </ul>
+                        <li key={index} className="relative group text-black hover:text-textteal lg:mx-4">
+                            {item.subItems ? (
+                                <div
+                                    className="cursor-pointer"
+                                    onClick={() => toggleSubmenu(index)}
+                                >
+                                    {item.label}
+                                    {activeMenu === index && (
+                                        <ul className="absolute mt-2 lg:mt-4 bg-white text-gray-500 rounded shadow-lg w-48 p-4 z-50">
+                                            {item.subItems.map((subItem, subIndex) => (
+                                                <li className="hover:text-textteal mb-2" key={subIndex}>
+                                                    <Link to={subItem.path} onClick={closeMenu}>{subItem.label}</Link>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    )}
+                                </div>
+                            ) : (
+                                <Link to={item.path} onClick={closeMenu}>{item.label}</Link>
                             )}
                         </li>
                     ))}
@@ -74,3 +90,4 @@ const Navbar = () => {
 }
 
 export default Navbar;
+

@@ -34,21 +34,21 @@ const Study = () => {
             Study <span className="text-textteal">Destinations</span> for You
           </h2>
           <p className="mb-4">
-            Discover which Top Destinations are PERFECT for You to Actually Make
-            Your Dreams a Reality. Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Rem dolore, minima perspiciatis illo labore vero
-            suscipit quos voluptatem debitis, eligendi id, explicabo quod. Sint,
-            nisi officia id praesentium fuga incidunt.
+            
+
+Choosing the right study destination for abroad studies involves careful consideration of several key factors. Each country offers unique advantages, making it crucial to tailor your choice to your academic goals, career aspirations, and personal preferences.
           </p>
           <p className="mb-4">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est vero
-            beatae accusantium hic quod accusamus iste maxime provident porro
-            quidem, dolore, fuga rerum omnis eum odit assumenda quae excepturi.
-            Nesciunt.
+          For those seeking a tuition-free or low-cost option, Germany provides an excellent choice with many programs taught in English, alongside opportunities for practical internships and job placements. Finally, Japan combines advanced technology with cultural richness, offering scholarships and programs in English while providing a unique cultural experience.
           </p>
           <p>
-            Discover which Top Destinations are PERFECT for You to Actually Make
-            Your Dreams a Reality. Lorem ipsum dolor sit amet.
+          The United States is renowned for its diverse range of universities and programs across various fields, providing extensive research opportunities and a vibrant campus life. Meanwhile, the United Kingdom stands out for its prestigious institutions steeped in academic tradition, offering shorter duration courses and a multicultural environment conducive to global networking.
+          </p>
+          <p className="mt-4">
+          Canada is known for its welcoming atmosphere and high-quality education system, with affordable tuition fees and opportunities for post-graduation work permits. Australia attracts students with its laid-back lifestyle, excellent quality of life, and strong emphasis on research and innovation in a flexible academic environment.
+          </p>
+          <p className="mt-4">
+          Each of these destinations presents distinct opportunities and challenges. Understanding these factors will help you make an informed decision that aligns with your educational ambitions and personal growth aspirations.
           </p>
         </div>
       </div>
