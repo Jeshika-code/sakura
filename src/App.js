@@ -17,6 +17,8 @@ import JFT from "./components/JFT.js"
 import JCERT from "./components/JCERT.js"
 import Gallery from  "./components/Gallery.js"
 import Contact from "./components/Contact.js"
+
+
 function App() {
   return (
     <>

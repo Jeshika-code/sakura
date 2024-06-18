@@ -3,8 +3,11 @@ import { Carousel } from "flowbite-react";
 import Services from './Services';
 import Study from './Study';
 import Footer from './Footer';
+import OfficeBranches from './Officebranches';
+
 import home1 from "../images/home1.png"
 import home2 from "../images/home2.jpg"
+
 const carouselItems = [
   {
     imageUrl:home2,
@@ -25,7 +28,7 @@ const carouselItems = [
 
 const Home = () => {
   return (
-    <div className='mt-4 lg:mt-0'>
+    <div className='mt-4 lg:mt-0' >
       <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen h-96 '>
         <Carousel className='w-full mx-auto h-full '>
           {carouselItems.map((item, index) => (
@@ -42,6 +45,7 @@ const Home = () => {
         </Carousel>
       </div>
       <Services/>
+      <OfficeBranches/>
       <Study/>
       <Footer/>
       
@@ -51,3 +55,4 @@ const Home = () => {
 }
 
 export default Home;
+
