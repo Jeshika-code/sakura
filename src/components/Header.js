@@ -13,7 +13,7 @@ const Header = () => {
             <Email sx={{ fontSize: 18 }} /> sakurajapangroup123@gmail.com
           </p>
           <p className="text-sm font-bold">
-            <Call sx={{ fontSize: 18 }} /> 9862413738
+            <Call sx={{ fontSize: 18 }} /> 071-591138,  9862413738
           </p>
         </div>
       </div>
