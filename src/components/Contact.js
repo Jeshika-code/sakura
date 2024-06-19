@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import Footer from './Footer';
+import { urls } from '../constants';
 
 const App = () => {
   const [formData, setFormData] = useState({
@@ -22,7 +23,7 @@ const App = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/contact', formData);
+      await axios.post(`${urls.SERVER_URL}contact`, formData);
       console.log('Form submitted successfully');
       // Reset form fields after submission
       setFormData({
@@ -170,3 +171,7 @@ const App = () => {
 };
 
 export default App;
+
+
+
+
