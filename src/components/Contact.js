@@ -23,8 +23,10 @@ const App = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post(`${urls.SERVER_URL}contact`, formData);
+      // const response =await axios.post(`${urls.SERVER_URL}/contact`, formData);
+      const response = await axios.post('http://localhost:5000/api/contact', formData)
       console.log('Form submitted successfully');
+      console.log('Server response:', response.data); 
       // Reset form fields after submission
       setFormData({
         name: '',
@@ -35,7 +37,7 @@ const App = () => {
         message: ''
       });
     } catch (error) {
-      console.error('Error submitting form:', error);
+      console.log('Error submitting form:', error);
     }
   };
 

@@ -12,3 +12,6 @@ const ContactSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model('Contact', ContactSchema, 'contactForm'); // 'contactForm' is the name of the collection (folder) within the 'sakura' database
+
+
+

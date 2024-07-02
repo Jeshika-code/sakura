@@ -4,9 +4,13 @@ import gallery2 from "../images/gallery2.jpg";
 import gallery3 from "../images/gallery3.jpg";
 import gallery4 from "../images/gallery4.jpg";
 import gallery5 from "../images/gallery5.jpg";
+import gallery6 from "../images/gallery6.jpg";
+import gallery7 from "../images/gallery7.jpg";
+
+
 import Footer from "./Footer";
 
-const imagePaths = [gallery1, gallery2, gallery3, gallery4, gallery5];
+const imagePaths = [gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7];
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);

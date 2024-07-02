@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Layout from './components/Layout';
 import Home from './components/Home';
-import About from './components/About';
 import Pte from './components/Pte';
 import IELTS from './components/IELTS'
 import Japan from './components/Japan'
@@ -17,7 +16,7 @@ import JFT from "./components/JFT.js"
 import JCERT from "./components/JCERT.js"
 import Gallery from  "./components/Gallery.js"
 import Contact from "./components/Contact.js"
-
+import Mentor from "./components/Mentor.js"
 
 function App() {
   return (
@@ -26,7 +25,7 @@ function App() {
     <Layout>
       <Routes>
       <Route path="/" element={<Home/>} />
-      <Route path="/about" element={<About/>} />
+      {/* <Route path="/aboutus" element={<AboutUs/>} /> */}
       <Route path='/classes/pte' element={<Pte/>}/>
       <Route path='/classes/ielts' element={<IELTS/>}/>
       <Route path='/classes/japan' element={<Japan/>}/>
@@ -40,6 +39,9 @@ function App() {
 <Route path='/contact' element={<Contact/>}/>
 
 <Route path='/gallery' element={<Gallery/>}/>
+<Route path='/mentor' element={<Mentor/>}/>
+
+
 
       </Routes>
     </Layout>

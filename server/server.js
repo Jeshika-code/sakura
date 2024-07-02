@@ -12,7 +12,9 @@ const PORT = process.env.PORT || 5000;
 // MongoDB connection
 mongoose.connect('mongodb://localhost:27017/sakura', {
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
+    serverSelectionTimeoutMS: 5000, // Timeout after 5 seconds (adjust as needed)
+    socketTimeoutMS: 45000 // Close sockets after 45 seconds of inactivity
   });
 
 app.use(bodyParser.json());
