@@ -6,12 +6,16 @@ import Study from './Study';
 import Footer from './Footer';
 import OfficeBranches from './Officebranches';
 
-// import home1 from "../images/home1.png";
+import home1 from "../images/home1.png";
 // import home2 from "../images/home2.jpg";
+
 import japan1 from "../images/japan1.jpg"
-import japan2 from "../images/japan2.jpg"
+// import japan5 from "../images/japan5.jpg"
+
+
+// import japan2 from "../images/japan2.jpg"
 // import japan3 from "../images/japan3.jpg"
-import japan4 from "../images/japan4.jpg"
+// import japan4 from "../images/japan4.jpg"
 import flag from "../images/flag.jpg"
 
 const carouselItems = [
@@ -21,7 +25,7 @@ const carouselItems = [
     description: "Welcome to Sakura Abroad, where we make your study abroad DREAM a REALITY with our Trusted Study Abroad Consultants. We understand that studying abroad can be overwhelming. That's why we offer personalized support to guide students through every step of the process, from choosing a destination to obtaining a visa."
   },
   { 
-    imageUrl: japan4,
+    imageUrl:home1,
     title: "Sakura Abroad Consultancy",
     description: "From cherry blossoms to global classrooms -- Sakura Abroad Study makes it possible."
   },
@@ -46,8 +50,8 @@ const Home = () => {
                 <img src={item.imageUrl} alt="" className="h-full w-full object-cover top-10" />
               </div>
               <div className='md:w-3/4 lg:h-80 h-96'>
-                <h1 className='lg:text-4xl text-xl font-semibold mb-4 md:w-3/4 leading-snug'><span className='text-textteal'>Sakura </span>Abroad Study and Training Center</h1>
-                <p className='lg:text-base text-sm'>{item.description}</p>
+                <h1 className='lg:text-4xl text-xl font-semibold mb-4 md:w-3/4 leading-snug ml-10'><span className='text-textteal'>Sakura </span>Abroad Study and Training Center</h1>
+                <p className='lg:text-base text-sm ml-10'>{item.description}</p>
               </div>
             </div>
           ))}
