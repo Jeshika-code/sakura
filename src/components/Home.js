@@ -10,12 +10,13 @@ import OfficeBranches from './Officebranches';
 // import home2 from "../images/home2.jpg";
 import japan1 from "../images/japan1.jpg"
 import japan2 from "../images/japan2.jpg"
-import japan3 from "../images/japan3.jpg"
+// import japan3 from "../images/japan3.jpg"
 import japan4 from "../images/japan4.jpg"
+import flag from "../images/flag.jpg"
 
 const carouselItems = [
   {
-    imageUrl: japan3,
+    imageUrl:flag,
     title: "Sakura Abroad Consultancy",
     description: "Welcome to Sakura Abroad, where we make your study abroad DREAM a REALITY with our Trusted Study Abroad Consultants. We understand that studying abroad can be overwhelming. That's why we offer personalized support to guide students through every step of the process, from choosing a destination to obtaining a visa."
   },
@@ -61,6 +62,7 @@ const Home = () => {
 }
 
 export default Home;
+
 
 
 

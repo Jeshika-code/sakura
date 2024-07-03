@@ -1,6 +1,6 @@
 import React from "react";
 import { Accordion } from "flowbite-react";
-const USAPage = () => {
+const JapanPage = () => {
   return (
     <>
       <div className="mx-auto w-11/12 max-h-96 overflow-y-auto mb-20">
@@ -120,5 +120,5 @@ For undergraduate students the preferable GPA is above 2.8.
   );
 };
 
-export default USAPage;
+export default JapanPage;
 
