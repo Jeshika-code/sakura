@@ -17,6 +17,7 @@ import JCERT from "./components/JCERT.js"
 import Gallery from  "./components/Gallery.js"
 import Contact from "./components/Contact.js"
 import Mentor from "./components/Mentor.js"
+import AboutUs from './components/Aboutus.js';
 
 function App() {
   return (
@@ -34,12 +35,13 @@ function App() {
       <Route path='/study-abroad/japan' element={<StudyJapan/>} />
       <Route path='/study-abroad/canada' element={<StudyCanada/>} />
       <Route path='/classes/japan/jft' element={<JFT/>}/>
+      <Route path='/aboutus' element={<AboutUs/>}/>
 <Route path='/classes/japan/jlpt' element={<JLPT/>}/>
 {/* <Route path='/classes/japan/jcert' element={<JCERT/>}/> */}
 <Route path='/contact' element={<Contact/>}/>
 
 <Route path='/gallery' element={<Gallery/>}/>
-<Route path='/mentor' element={<Mentor/>}/>
+{/* <Route path='/mentor' element={<Mentor/>}/> */}
 
 
 

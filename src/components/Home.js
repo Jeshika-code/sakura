@@ -8,15 +8,9 @@ import OfficeBranches from './Officebranches';
 
 import home1 from "../images/home1.png";
 // import home2 from "../images/home2.jpg";
-
 import japan1 from "../images/japan1.jpg"
-// import japan5 from "../images/japan5.jpg"
-
-
-// import japan2 from "../images/japan2.jpg"
-// import japan3 from "../images/japan3.jpg"
-// import japan4 from "../images/japan4.jpg"
 import flag from "../images/flag.jpg"
+import Japan from './Japan';
 
 const carouselItems = [
   {
