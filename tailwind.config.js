@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        textteal: '	#008080',
-        // textteal: '#ec275f',
+        // textteal: '	#008080',
+        textteal: '#ec275f',
 
 
         ewhite:'#F4F4F6',
